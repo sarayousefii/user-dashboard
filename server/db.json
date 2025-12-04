@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin ",
+      "email": "admin@example.com",
+      "password": "123456",
+      "role": "admin"
+    },
+    {
+      "id": "c2c4",
+      "name": "sara",
+      "email": "sara.youseffi87@gmail.com",
+      "password": "123",
+      "role": "admin"
+    },
+    {
+      "id": "1764795997959",
+      "name": "تیام ",
+      "email": "tiam@example.com",
+      "role": "user",
+      "password": "22"
+    },
+    {
+      "id": "1764796020998",
+      "name": "afshinن",
+      "email": "afshin@example.com",
+      "role": "user",
+      "password": "123"
+    },
+    {
+      "id": "1764796038718",
+      "name": "leila",
+      "email": "leila@example.com",
+      "role": "admin",
+      "password": "123"
+    },
+    {
+      "id": "1764796089631",
+      "name": "sزara yousefi",
+      "email": "sara.yousefi6@gmail.com",
+      "role": "admin",
+      "password": "1232"
+    },
+    {
+      "id": "1764800518956",
+      "name": "شششش",
+      "email": "admiin@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "1764803249029",
+      "name": "ddddddddddd",
+      "email": "ssssssss@example.com",
+      "role": "user",
+      "password": "23"
+    },
+    {
+      "id": "1764804353452",
+      "name": "حسن",
+      "email": "hasan@example.com",
+      "role": "user",
+      "password": "123456"
+    },
+    {
+      "id": "1764804426604",
+      "name": "mino",
+      "email": "mino@example.com",
+      "password": "123",
+      "role": "user"
+    }
+  ]
+}

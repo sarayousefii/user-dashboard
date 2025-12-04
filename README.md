@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# User Dashboard
 
-## Getting Started
+**A modern user management dashboard built with Next.js and TailwindCSS, featuring role-based access control, responsive design, and mock backend support. The project includes authentication via NextAuth, reusable UI components, and JSON Server for user data.**
 
-First, run the development server:
+---
+
+## Features
+
+* Authentication with NextAuth.js  
+* Role-based access control (Admin / Regular User)  
+* View, edit, and delete users (Admin only)  
+* Responsive UI for desktop and mobile  
+* Reusable UI components: Card, Button, Table, Form, Modal  
+* Paginated and sortable users table  
+* Form validation with React Hook Form and Zod  
+* Mock backend with JSON Server  
+* TailwindCSS for styling  
+* Animated UI interactions  
+
+---
+
+## Technologies / Stack
+
+* **Frontend:** Next.js 14, React 19, TypeScript, TailwindCSS  
+* **Authentication:** NextAuth.js  
+* **Mock Backend:** JSON Server  
+* **Form Handling & Validation:** React Hook Form, Zod  
+* **UI Components:** Radix UI, Lucide React  
+* **Utilities:** clsx, class-variance-authority, tailwind-merge, react-hot-toast  
+* **Dev Tools:** ESLint, Concurrently, ts-node  
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/sarayousefii/user-dashboard.git
+
+
+2. Navigate to the project folder:
+
+```bash
+cd user-dashboard
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Build for production:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+```
+6. Configure environment variables (.env):
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=your-secret
 
-## Learn More
+```
+JSON server will run on http://localhost:5000
 
-To learn more about Next.js, take a look at the following resources:
+Next.js frontend will run on http://localhost:3000
+```
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The project can be deployed on any Node.js hosting service.
+For local development, use npm run dev to run both frontend and JSON server concurrently.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Live Demo
 
-## Deploy on Vercel
+🎯 **Check out the live version:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Scripts
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+npm run server       # Start JSON Server only
+npm run frontend     # Start Next.js frontend only
+npm run dev          # Run both server and frontend concurrently
+npm run build        # Build Next.js production version
+npm run start        # Start Next.js production server
+npm run lint         # Run ESLint
+
+
+## License
+
+This project is open-source and free to use.

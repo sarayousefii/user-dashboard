@@ -22,10 +22,10 @@
 ## Technologies / Stack
 
 * **Frontend:** Next.js 14, React 19, TypeScript, TailwindCSS  
+* **UI Components:** shadcn/ui, Lucide React  
 * **Authentication:** NextAuth.js  
 * **Mock Backend:** JSON Server  
 * **Form Handling & Validation:** React Hook Form, Zod  
-* **UI Components:** Radix UI, Lucide React  
 * **Utilities:** clsx, class-variance-authority, tailwind-merge, react-hot-toast  
 * **Dev Tools:** ESLint, Concurrently, ts-node  
 
@@ -81,7 +81,6 @@ For local development, use npm run dev to run both frontend and JSON server conc
 ## Live Demo
 
 🎯 **Check out the live version:**
-
 ## Scripts
 
 npm run server       # Start JSON Server only

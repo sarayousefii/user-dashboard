@@ -8,7 +8,6 @@ export default function LandingPage() {
   return (
     <main className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-br from-indigo-100 via-purple-100 to-pink-100 px-4 relative overflow-hidden">
 
-      {/* SVG Illustration */}
       <svg
         className="absolute top-0 right-0 w-96 opacity-20 -z-10 animate-pulse pointer-events-none select-none"
         viewBox="0 0 600 600"

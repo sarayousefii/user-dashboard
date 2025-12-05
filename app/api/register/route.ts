@@ -1,4 +1,3 @@
-// app/api/register/route.ts
 import { NextRequest, NextResponse } from "next/server";
 
 const API_URL = "http://localhost:5000/users";

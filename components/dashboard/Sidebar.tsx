@@ -20,7 +20,6 @@ export default function Sidebar({ isOpen = true, onClose }: SidebarProps) {
 
   return (
     <>
-      {/* Overlay موبایل */}
       <div
         className={`fixed inset-0 bg-black bg-opacity-50 z-30 transition-opacity md:hidden ${
           isOpen ? "opacity-100 visible" : "opacity-0 invisible"
@@ -35,7 +34,6 @@ export default function Sidebar({ isOpen = true, onClose }: SidebarProps) {
         <h2 className="text-xl font-bold mb-6">پنل مدیریت</h2>
         <nav className="flex flex-col gap-2">
           {links.map((item) => {
-            // اگر لینک فقط برای ادمین است و کاربر ادمین نیست، نمایش داده نشود
             if (item.adminOnly && session?.user?.role !== "admin") return null;
 
             return (

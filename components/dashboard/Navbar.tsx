@@ -11,7 +11,6 @@ export default function Navbar({ toggleSidebar }: NavbarProps) {
 
   return (
     <header className="w-full bg-white border-b px-4 py-3 flex items-center justify-between md:px-6">
-      {/* منوی موبایل */}
       <button
         className="md:hidden p-2 rounded hover:bg-gray-100"
         onClick={toggleSidebar}

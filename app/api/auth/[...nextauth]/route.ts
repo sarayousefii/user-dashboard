@@ -24,7 +24,6 @@ export const authOptions: AuthOptions = {
           );
 
           if (user) {
-            // role را همراه با بقیه اطلاعات برگردان
             return { id: user.id, name: user.name, email: user.email, role: user.role };
           }
 
